@@ -37,9 +37,8 @@ class ViewController: UIViewController {
     @IBAction func showActionSheet(_ sender: UIButton) {
         
         Alertify.actionSheet(message: nil, anchorView: sender)
-            .action(.default("Chat"), image: #imageLiteral(resourceName: "chat"))
-            .action(.default("View"), image: #imageLiteral(resourceName: "info"))
-            .action(.default("Info"), image: #imageLiteral(resourceName: "case"))
+            .action(.default("Hello"), image: #imageLiteral(resourceName: "chat"))
+            .action(.default("Info"), image: #imageLiteral(resourceName: "info"))
             .action(.cancel("None"))
             .finally { action, index in
                 if action.style == .cancel {
