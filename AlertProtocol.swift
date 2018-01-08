@@ -1,9 +1,8 @@
 //
-//  AlertType.swift
-//  Alertift
+//  Alertify
 //
-//  Created by Suguru Kishimoto on 4/30/17.
-//  Copyright © 2017 Suguru Kishimoto. All rights reserved.
+//  Created by karthik on 01/09/2018.
+//  Copyright (c) 2018 karthikAdaptavant. All rights reserved.
 //
 
 import Foundation
@@ -104,7 +103,7 @@ extension AlertProtocol {
         viewController.present(inner.innerController, animated: true, completion: completion)
     }
     
-    /// Build **UIAlertAction** using **Alertift.Action** and handler.
+    /// Build **UIAlertAction** using Alertify.Action and handler.
     func buildAction(_ action: Alertify.ActionType, handler: Alertify.ActionType.Handler?) -> UIAlertAction {
         return action.build(handler: handler.map { ActionBuilder.buildHandler($0, inner.innerController.finallyExecutor) })
     }
