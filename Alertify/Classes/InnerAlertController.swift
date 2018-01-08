@@ -1,9 +1,8 @@
 //
-//  InnerAlertController.swift
-//  Alertift
+//  Alertify
 //
-//  Created by Suguru Kishimoto on 4/27/17.
-//  Copyright © 2017 Suguru Kishimoto. All rights reserved.
+//  Created by karthik on 01/09/2018.
+//  Copyright (c) 2018 karthikAdaptavant. All rights reserved.
 //
 
 import Foundation
@@ -107,7 +106,7 @@ class InnerAlertController: UIAlertController {
 
     private func adjustLabel(for imageView: UIImageView) {
 
-        if let label = titleLabel {
+        if let label = titleLbl {
             let lineCount = getLineCount(for: imageView, label: label)
             let lines = String(repeating: "\n", count: lineCount)
             spaceAdjustedTitle = lines + (originalTitle ?? "")
@@ -136,10 +135,11 @@ class InnerAlertController: UIAlertController {
         }
         return lineCount
     }
-
+    
     private lazy var lineHeight: CGFloat = {
-        return titleLabel?.font.lineHeight ?? messageLabel?.font.lineHeight ?? 1.0
+        return 1.0
     }()
+    
 
     /// textFieldTextDidChangeHandler: ((UITextField, Int) -> Void)
     var textFieldTextDidChangeHandler: Alertify.Alert.TextFieldHandler?
@@ -220,7 +220,7 @@ class InnerAlertController: UIAlertController {
         }
     }
     
-    var titleLabel: UILabel? {
+    var titleLbl: UILabel? {
         return title.flatMap(searchLabel(from:))
     }
     
@@ -229,7 +229,7 @@ class InnerAlertController: UIAlertController {
     }
 
     private func updateTitleLabel() {
-        if let titleLabel = titleLabel {
+        if let titleLabel = titleLbl {
             titleLabel.textColor = titleTextColor
             titleLabel.textAlignment = titleTextAlignment
         }

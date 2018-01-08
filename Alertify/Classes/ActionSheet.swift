@@ -1,9 +1,8 @@
 //
-//  ActionSheet.swift
-//  Alertift
+//  Alertify
 //
-//  Created by Suguru Kishimoto on 4/27/17.
-//  Copyright © 2017 Suguru Kishimoto. All rights reserved.
+//  Created by karthik on 01/09/2018.
+//  Copyright (c) 2018 karthikAdaptavant. All rights reserved.
 //
 
 import Foundation
@@ -77,7 +76,7 @@ extension Alertify {
             innerController.setImage(image, imageTopMargin: imageTopMargin)
             return self
         }
-    
+            
         deinit {
             Debug.log()
         }
