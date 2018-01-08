@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Alertify_Example' do
+  pod 'Alertify', :path => '../'
+
+  target 'Alertify_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
