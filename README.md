@@ -1,5 +1,5 @@
 # Alertify
-![logo](Alertify/Screen Shot 2018-01-09 at 3.09.18 AM.png)
+![logo](Screen Shot 2018-01-09 at 3.09.18 AM.png)
 
 [![Version](https://img.shields.io/cocoapods/v/Alertify.svg?style=flat)](http://cocoapods.org/pods/Alertify)
 [![License](https://img.shields.io/cocoapods/l/Alertify.svg?style=flat)](http://cocoapods.org/pods/Alertify)
