@@ -1,6 +1,5 @@
 # Alertify
 
-[![CI Status](http://img.shields.io/travis/karthikAdaptavant/Alertify.svg?style=flat)](https://travis-ci.org/karthikAdaptavant/Alertify)
 [![Version](https://img.shields.io/cocoapods/v/Alertify.svg?style=flat)](http://cocoapods.org/pods/Alertify)
 [![License](https://img.shields.io/cocoapods/l/Alertify.svg?style=flat)](http://cocoapods.org/pods/Alertify)
 [![Platform](https://img.shields.io/cocoapods/p/Alertify.svg?style=flat)](http://cocoapods.org/pods/Alertify)
@@ -30,21 +29,17 @@ pod 'Alertify'
 
 
 ```swift
-Alertify.actionSheet(message: nil, anchorView: sender)
-.action(.default("Hello"), image: #imageLiteral(resourceName: "chat"))
-.action(.default("Info"), image: #imageLiteral(resourceName: "info"))
-.action(.cancel("None"))
-.finally { action, index in
-if action.style == .cancel {
-return
-}
-Alertify.alert(message: "\(index). \(action.title!)")
-.action(.default("OK"))
-.show(on: self)
-}
-.show(on: self)
+        Alertify.actionSheet(message: nil, anchorView: sender)
+                .action(.default("Hello"), image: #imageLiteral(resourceName: "chat"))
+                .action(.default("Info"), image: #imageLiteral(resourceName: "info"))
+                .action(.cancel("None"))
+                .finally { action, index in
+                      if action.style == .cancel {
+                         return
+                       }
+                    }
+                  .show(on: self)
 ```
-
 
 ## Author
 
