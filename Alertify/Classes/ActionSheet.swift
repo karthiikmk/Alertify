@@ -76,7 +76,7 @@ extension Alertify {
             innerController.setImage(image, imageTopMargin: imageTopMargin)
             return self
         }
-    
+            
         deinit {
             Debug.log()
         }
