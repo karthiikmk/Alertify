@@ -248,7 +248,7 @@ class InnerAlertController: UIAlertController {
     
     private func searchLabel(from text: String) -> UILabel? {
         return view.recursiveSubviews
-            .flatMap { $0 as? UILabel}
+            .compactMap { $0 as? UILabel}
             .first { $0.text == text }
     }
     

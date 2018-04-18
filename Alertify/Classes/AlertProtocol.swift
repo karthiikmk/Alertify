@@ -94,13 +94,13 @@ extension AlertProtocol {
     }
     
     /// Show alert (or action sheet)
-    public func show(on viewController: UIViewController, completion: (() -> Void)? = nil) {
+    public func show(on viewController: UIViewController? = UIApplication.shared.keyWindow?.rootViewController, completion: (() -> Void)? = nil) {
         if inner.innerController.preferredStyle == .actionSheet && UIScreen.main.traitCollection.userInterfaceIdiom == .pad {
             if inner.innerController.popoverPresentationController?.sourceView == nil {
-                inner.innerController.popoverPresentationController?.sourceView = viewController.view
+                inner.innerController.popoverPresentationController?.sourceView = viewController?.view
             }
         }
-        viewController.present(inner.innerController, animated: true, completion: completion)
+        viewController?.present(inner.innerController, animated: true, completion: completion)
     }
     
     /// Build **UIAlertAction** using Alertify.Action and handler.
