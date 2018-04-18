@@ -9,6 +9,14 @@
 import UIKit
 import Alertify
 
+
+/* pod lib lint Alertify.podspec
+   git tag 4.0
+   git push origin 4.0
+   pod spec lint Alertify.podspec
+   pod trunk push Alertify.podspec
+ */
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -31,7 +39,7 @@ class ViewController: UIViewController {
         
         Alertify.alert(title: "Alertify!!", message: "Hello world!")
             .action(.default("OK"))
-            .show(on: self)
+            .show()
     }
     
     @IBAction func showActionSheet(_ sender: UIButton) {
