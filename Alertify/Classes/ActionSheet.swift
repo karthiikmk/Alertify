@@ -41,7 +41,7 @@ extension Alertify {
         }
         
         /// Base Action
-        public func action(_ action: Alertify.ActionType, image: UIImage?, renderingMode: UIImageRenderingMode = .automatic, handler: Handler? = nil) -> Self {
+        public func action(_ action: Alertify.ActionType, image: UIImage?, renderingMode: UIImage.RenderingMode = .automatic, handler: Handler? = nil) -> Self {
             
             let megedHandler = mergeHandler(innerController.actionHandler, handler ?? { (_, _) in })
             let alertAction = buildAction(action, handler: megedHandler)

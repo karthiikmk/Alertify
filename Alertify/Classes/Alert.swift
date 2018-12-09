@@ -59,14 +59,14 @@ extension Alertify {
         
         public func action(_ action: Alertify.ActionType,
                            image: UIImage?,
-                           renderingMode: UIImageRenderingMode = .automatic,
+                           renderingMode: UIImage.RenderingMode = .automatic,
                            handler: Handler? = nil) -> Self {
             return self.action(action, image: image, renderingMode: renderingMode, isPreferred: false, handler: handler)
         }
 
         public func action(_ action: Alertify.ActionType,
                            image: UIImage?,
-                           renderingMode: UIImageRenderingMode = .automatic,
+                           renderingMode: UIImage.RenderingMode = .automatic,
                            isPreferred: Bool,
                            handler: Handler? = nil) -> Self {
             
