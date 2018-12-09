@@ -13,3 +13,8 @@ Pod::Spec.new do |s|
   s.source_files = 'Alertify/Classes/**/*'
 end
 
+# install fastlane in project root folder
+# that will create gem file (add things needed)
+# https://mar.codes/2018-11-14/Automate-open-source-libraries-releases-with-fastlane?fbclid=IwAR0_4N0ailvFLt--2mtPz3bhUzcC81PZD3cWSkljcp1J2wzlpoteGV-4O4s
+# edit fast file to add lane
+# push the pod
