@@ -1,0 +1,6 @@
+framework module Alertify {
+  umbrella header "Alertify-umbrella.h"
+
+  export *
+  module * { export * }
+}
