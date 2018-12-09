@@ -35,10 +35,10 @@ platform :ios do
 
   def release(type)
     pod_lib_lint
-    version = version_bump_podspec(path: "MyPod.podspec",
+    version = version_bump_podspec(path: "Alertify.podspec",
                                    bump_type: type)
-    git_add(path: "MyPod.podspec")
-    git_commit(path: ["MyPod.podspec"],
+    git_add(path: "Alertify.podspec")
+    git_commit(path: ["Alertify.podspec"],
                message: "#{version} release")
     add_git_tag(tag: "#{version}")
     push_to_git_remote
