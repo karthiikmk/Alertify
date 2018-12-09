@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/karthikAdaptavant/Alertify'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'karthikAdaptavant' => 'karthik.samy@a-cti.com' }
+  s.social_media_url = 'https://twitter.com/i_am_kaarthik'
   s.source           = { :git => 'https://github.com/karthikAdaptavant/Alertify.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
