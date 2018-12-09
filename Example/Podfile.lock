@@ -1,16 +1,16 @@
 PODS:
-  - Alertify (1.0)
+  - Alertify (4.0)
 
 DEPENDENCIES:
   - Alertify (from `../`)
 
 EXTERNAL SOURCES:
   Alertify:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Alertify: 495eeaa6871b509dedd0118758a0237ce749790a
+  Alertify: 098cd2448a2842ea4b8a4dcd2c5487335fd93bce
 
-PODFILE CHECKSUM: a141cb410c5b05b0d87e3cac6d0ac8aca82a0db4
+PODFILE CHECKSUM: 8d3bf8ec55066c6e6f1f210584e19c101057f1a2
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
