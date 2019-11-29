@@ -33,7 +33,7 @@ NotificationBubbles is available through Swift Package Manager. To install it, s
 .package(url: "https://github.com/karthikAdaptavant/Alertify.git", from: "4.0.6")
 ````
 
-
+### Usage 
 ```swift
         Alertify.actionSheet(message: nil, anchorView: sender)
                 .action(.default("Hello"), image: #imageLiteral(resourceName: "chat"))
