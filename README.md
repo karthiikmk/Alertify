@@ -15,8 +15,8 @@
 
 ## Requirements
 - iOS 10.0+
-- Xcode 8.1+
-- Swift 3.0+
+- Xcode 11+
+- Swift 4.2+
 
 ## Installation
 
@@ -35,16 +35,12 @@ NotificationBubbles is available through Swift Package Manager. To install it, s
 
 
 ```swift
-        Alertify.actionSheet(message: nil, anchorView: sender)
-                .action(.default("Hello"), image: #imageLiteral(resourceName: "chat"))
-                .action(.default("Info"), image: #imageLiteral(resourceName: "info"))
-                .action(.cancel("None"))
-                .finally { action, index in
-                      if action.style == .cancel {
-                         return
-                       }
-                    }
-                  .show(on: self)
+  Alertify.actionSheet(message: nil, anchorView: sender)
+	.action(.default("Hello"), image: #imageLiteral(resourceName: "chat"))
+	.action(.default("Info"), image: #imageLiteral(resourceName: "info"))
+	.action(.cancel("None"))
+	.finally { action, index in  }
+	.show(on: self)
 ```
 
 ## Author
