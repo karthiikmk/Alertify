@@ -1,5 +1,5 @@
 PODS:
-  - Alertify (4.0.6)
+  - Alertify (4.0.7)
 
 DEPENDENCIES:
   - Alertify (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alertify: 4dff30d564daadbee904f41bc1cd5ccba2424d03
+  Alertify: 1493228b0063698da26a8bc65cbda006f0392725
 
 PODFILE CHECKSUM: 8d3bf8ec55066c6e6f1f210584e19c101057f1a2
 
