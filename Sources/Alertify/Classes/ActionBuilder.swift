@@ -5,7 +5,7 @@
 //  Copyright (c) 2018 karthikAdaptavant. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 /// merge two closure to one closure.
