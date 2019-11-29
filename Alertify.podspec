@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/karthikAdaptavant/Alertify.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-  s.source_files = 'Alertify/Classes/**/*'
+  s.source_files = 'Sources/Alertify/Classes/**/*'
 end
 
 # install fastlane in project root folder
