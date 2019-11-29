@@ -8,9 +8,9 @@ let package = Package(
     products: [
         .library(name: "Alertify", targets: ["Alertify"]),
     ],
-    dependencies: [ ],
     targets: [
         .target(name: "Alertify", dependencies: []),
         .testTarget(name: "AlertifyTests", dependencies: ["Alertify"]),
-    ]
+    ],
+	swiftLanguageVersions: [.v4_2]
 )
