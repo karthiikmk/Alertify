@@ -30,7 +30,7 @@ pod 'Alertify'
 ### Swift Package Manager
 NotificationBubbles is available through Swift Package Manager. To install it, simply add the following dependency to your Package.swift
 ```` swift
-.package(url: "https://github.com/karthikAdaptavant/Alertify.git", from: "4.0.6")
+.package(url: "https://github.com/karthikAdaptavant/Alertify.git", from: "4.0.7")
 ````
 
 ### Usage 
