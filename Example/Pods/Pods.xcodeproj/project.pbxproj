@@ -7,194 +7,192 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FAA2BE905F2B641A192986A665AE645 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F664710E2FEE1D8B73D09F7D666AED /* Debug.swift */; };
-		2E6EA15C3410AC867A0318F80AF24780 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC858569080DDF7A6BB10E1C5B938F3A /* ActionSheet.swift */; };
-		330B104682F9B5BD24FBBB15921D648C /* ActionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D4420FBDCB25DC5DC3AA23F6338693 /* ActionBuilder.swift */; };
-		383C82D18E6DE0BAFE7D8F03CA09BF2D /* Alertify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85931C25F556F846ABBBC02F2BB750C9 /* Alertify-dummy.m */; };
-		6864795594AE06A24FFF769B8DC2EF34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		6A22F13781B6124FB0D3CD1FF71DF4A2 /* Pods-Alertify_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A59EF89AFB3BACDB3D85308C9238EC /* Pods-Alertify_Example-dummy.m */; };
-		6D49C392C360C4C1730F49DB5C20618E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		717FF7F383B8204B454F496BA1163107 /* AlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC65DAF40915C72D9E8C53A2975E49 /* AlertProtocol.swift */; };
-		8ACCFD6A7F490AC6C311EF236125BA9F /* Alertify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8159A66A7A8453D69F31FADD592E86 /* Alertify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B01B8AB749F25EE706D37AB2B3EBB77E /* InnerAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B0C78AB2337F25AE753343039A8B6 /* InnerAlertController.swift */; };
-		B03CB29EEB43F992CC55871222F1DD27 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12362C7F27200BFA68A827FC5169C1C /* ActionType.swift */; };
-		CA88F2FC29C0523E5629830A8A02FF61 /* Alertify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48847FD09F35F184DB31933E12D2ACC /* Alertify.swift */; };
-		D0B6642761ED8F7B72C08BEAF6F3581B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EE7028AEA7A480F002267849CA603 /* Alert.swift */; };
-		FD447E393B7EF79AEDB1DF0692F9525A /* Pods-Alertify_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EE1B50C80A785DBEB1B366EBB68248 /* Pods-Alertify_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03237A0FB415D4237BDE326D32768DAF /* AlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0593C3696CEC835A14DF802F013C28 /* AlertProtocol.swift */; };
+		210E04D862251F378A419E7009BD2221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		301D52248D52DD549D68473C3BE9DB1E /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF29300F7BD3B89015080DC90F6C8E /* Debug.swift */; };
+		5DBC731A5B0B2261ECC4FD04420A1624 /* InnerAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E7D05B88DD7C27EDB7051E389F755 /* InnerAlertController.swift */; };
+		78BA673AF1BBB02CA11A27BE4D4894D4 /* ActionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046DEC5A5C42C25BA25F072EE125F4A /* ActionBuilder.swift */; };
+		853A3AB73B6D0B085127FA7B58268D04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		97FA39A0AAE5774EAE8E5F5CE10CA9C5 /* Alertify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE05A22F0F415CCF688EF2EEA58E26C /* Alertify.swift */; };
+		9A52D8312A8DAC81E8A23CA5D2ACF2F5 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C788781CA6B9EEAEB2F87CC521C5794C /* ActionSheet.swift */; };
+		C4C88F874F68D7D0425504907DADBBD2 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C91E74C796A286C10C4473A56BB0E /* ActionType.swift */; };
+		D66CA5E412DE00E6793D359CE6B58AFD /* Pods-Alertify_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 293A8D49C96D318821EFCA143F52AB14 /* Pods-Alertify_Example-dummy.m */; };
+		DC3E60CDF04A5F01A513486B5EDBE383 /* Alertify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1225BD82312FF971F77230FD0C54EA /* Alertify-dummy.m */; };
+		E5620F1B625899973EB120E8CC8C0796 /* Pods-Alertify_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 986EA837B7733F962EEAEF8DE790788D /* Pods-Alertify_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1612C30B5187A91A062E47CFC0DC096 /* Alertify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 941B737C686F66A0D0F9F2159EB41BE3 /* Alertify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1CF0F6B2BC64B56D929792FF6D65B73 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A6D876077F7ED39AFA4820426C5E3F /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06B87B54EB21EFCDF343B1368ED71203 /* PBXContainerItemProxy */ = {
+		8D66A09F8D926E992A7F2F3765227471 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C116614304B42B1F98BAE78A496B2483;
+			remoteGlobalIDString = 2AE9C5B8DCFA5995B05F7F5D5E583450;
 			remoteInfo = Alertify;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026D5AA8A4849D08930A2567F6B93E10 /* Pods_Alertify_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alertify_Example.framework; path = "Pods-Alertify_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05EE1B50C80A785DBEB1B366EBB68248 /* Pods-Alertify_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alertify_Example-umbrella.h"; sourceTree = "<group>"; };
-		21A80B29C84411EEDE4B419FCFB3F294 /* Pods-Alertify_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertify_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		392F70764223365B59DA1687CA609FE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DD5FB8305B6568C1D827B03E4E2ECA2 /* Alertify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alertify.xcconfig; sourceTree = "<group>"; };
-		537DDADC18AA6D9E04ABD4033B350728 /* Pods-Alertify_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertify_Example-resources.sh"; sourceTree = "<group>"; };
-		58F61D6D0287B1B26C2AF62F1F1FB7FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		59F664710E2FEE1D8B73D09F7D666AED /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = Alertify/Classes/Debug.swift; sourceTree = "<group>"; };
-		65BC6DEF498A53B0DB840E9ECF247A56 /* Alertify.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Alertify.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		66A59EF89AFB3BACDB3D85308C9238EC /* Pods-Alertify_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alertify_Example-dummy.m"; sourceTree = "<group>"; };
-		6CDC65DAF40915C72D9E8C53A2975E49 /* AlertProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertProtocol.swift; path = Alertify/Classes/AlertProtocol.swift; sourceTree = "<group>"; };
-		7B8159A66A7A8453D69F31FADD592E86 /* Alertify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertify-umbrella.h"; sourceTree = "<group>"; };
-		85931C25F556F846ABBBC02F2BB750C9 /* Alertify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alertify-dummy.m"; sourceTree = "<group>"; };
-		8C9B0C78AB2337F25AE753343039A8B6 /* InnerAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerAlertController.swift; path = Alertify/Classes/InnerAlertController.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		958B4B4DCB4EAD97E1508F92FF281089 /* Alertify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alertify.modulemap; sourceTree = "<group>"; };
-		959EE7028AEA7A480F002267849CA603 /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = Alertify/Classes/Alert.swift; sourceTree = "<group>"; };
-		9DBB719DF9D3D105AE6319BB58FF7735 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1C92DAD9C31534D4DA9AB13D5AEDC8E /* Alertify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertify-prefix.pch"; sourceTree = "<group>"; };
-		B2868653BD1206BC6988CF0565345EFC /* Pods-Alertify_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertify_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C978C7C6B911A5721CFF222813FDC511 /* Pods-Alertify_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alertify_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC858569080DDF7A6BB10E1C5B938F3A /* ActionSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheet.swift; path = Alertify/Classes/ActionSheet.swift; sourceTree = "<group>"; };
-		D060D1F345AB7D524DA1D854F833ECB4 /* Pods-Alertify_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alertify_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D12362C7F27200BFA68A827FC5169C1C /* ActionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionType.swift; path = Alertify/Classes/ActionType.swift; sourceTree = "<group>"; };
-		D191EB8EC1EC88CE146A4E58AB98D2AE /* Alertify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alertify.framework; path = Alertify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E3A8682ADDB7A3A367219F14230DDDA2 /* Pods-Alertify_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Alertify_Example.modulemap"; sourceTree = "<group>"; };
-		E48847FD09F35F184DB31933E12D2ACC /* Alertify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alertify.swift; path = Alertify/Classes/Alertify.swift; sourceTree = "<group>"; };
-		E55A2F17F792638693A3B3A51ECC3AD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E61FB7799FE045ECE2A4F28DDB6EA54D /* Pods-Alertify_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertify_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E7D4420FBDCB25DC5DC3AA23F6338693 /* ActionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionBuilder.swift; path = Alertify/Classes/ActionBuilder.swift; sourceTree = "<group>"; };
+		0CACCB279DF19550660525F506F7912E /* Alertify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alertify.xcconfig; sourceTree = "<group>"; };
+		11A1A439DDDB22B2EE0D30E42794940C /* Pods-Alertify_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Alertify_Example.modulemap"; sourceTree = "<group>"; };
+		14EF29300F7BD3B89015080DC90F6C8E /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = Sources/Alertify/Classes/Debug.swift; sourceTree = "<group>"; };
+		184DE236CC9B11B5D4F49D8132770809 /* Pods-Alertify_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alertify_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D1225BD82312FF971F77230FD0C54EA /* Alertify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alertify-dummy.m"; sourceTree = "<group>"; };
+		293A8D49C96D318821EFCA143F52AB14 /* Pods-Alertify_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alertify_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B4E7D05B88DD7C27EDB7051E389F755 /* InnerAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerAlertController.swift; path = Sources/Alertify/Classes/InnerAlertController.swift; sourceTree = "<group>"; };
+		3C1C91E74C796A286C10C4473A56BB0E /* ActionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionType.swift; path = Sources/Alertify/Classes/ActionType.swift; sourceTree = "<group>"; };
+		40E5199304CF20B39078259DD991E68B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		450A659D855D0C521988FF5C19A07E79 /* Pods-Alertify_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alertify_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		49D2F12C9AFA5B7C59F86977CE658D60 /* Alertify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertify-prefix.pch"; sourceTree = "<group>"; };
+		6FE05A22F0F415CCF688EF2EEA58E26C /* Alertify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alertify.swift; path = Sources/Alertify/Classes/Alertify.swift; sourceTree = "<group>"; };
+		7046DEC5A5C42C25BA25F072EE125F4A /* ActionBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionBuilder.swift; path = Sources/Alertify/Classes/ActionBuilder.swift; sourceTree = "<group>"; };
+		76CE83ECD80151F5D185232859422622 /* Pods-Alertify_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alertify_Example-Info.plist"; sourceTree = "<group>"; };
+		7E8151F12CDC8D1A8B1103A55B8F60D7 /* Pods-Alertify_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertify_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		831D5071E903028A925C0107E161A93D /* Alertify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alertify.framework; path = Alertify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941B737C686F66A0D0F9F2159EB41BE3 /* Alertify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alertify-umbrella.h"; sourceTree = "<group>"; };
+		986EA837B7733F962EEAEF8DE790788D /* Pods-Alertify_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alertify_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC6B69B7D0D66B650E06AE1BC2A3AE3 /* Pods-Alertify_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alertify_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BE858AC84D04ACE146F5E271C83EFC57 /* Pods_Alertify_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alertify_Example.framework; path = "Pods-Alertify_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C788781CA6B9EEAEB2F87CC521C5794C /* ActionSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheet.swift; path = Sources/Alertify/Classes/ActionSheet.swift; sourceTree = "<group>"; };
+		D1A6D876077F7ED39AFA4820426C5E3F /* Alert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = Sources/Alertify/Classes/Alert.swift; sourceTree = "<group>"; };
+		D6203BB076013EE06BE31155938CE954 /* Alertify.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Alertify.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7CBCDE5012F7310F965D1A59BBA2C41 /* Alertify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alertify.modulemap; sourceTree = "<group>"; };
+		D8BA47603AFB448904D013F74B2B7AEC /* Alertify-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alertify-Info.plist"; sourceTree = "<group>"; };
+		DC0593C3696CEC835A14DF802F013C28 /* AlertProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertProtocol.swift; path = Sources/Alertify/Classes/AlertProtocol.swift; sourceTree = "<group>"; };
+		E4EB102CB3834422C87BD700B101F305 /* Pods-Alertify_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alertify_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FAC07A23D6187709E117C113A9DCDC0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8F4FDE016356F3182D046FE1FE745CE8 /* Frameworks */ = {
+		DA6C8014F7CF43CD13B80639AF739F62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D49C392C360C4C1730F49DB5C20618E /* Foundation.framework in Frameworks */,
+				853A3AB73B6D0B085127FA7B58268D04 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EC5FC051BBE9FBF90261EB42285488 /* Frameworks */ = {
+		F9AAFE2B212A14E0CC2C878E0EC88960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6864795594AE06A24FFF769B8DC2EF34 /* Foundation.framework in Frameworks */,
+				210E04D862251F378A419E7009BD2221 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01F7CF54C215F5D53B5E2602DFCF1C74 /* Products */ = {
+		39119C737A88F14FE338A13167FC61E4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D191EB8EC1EC88CE146A4E58AB98D2AE /* Alertify.framework */,
-				026D5AA8A4849D08930A2567F6B93E10 /* Pods_Alertify_Example.framework */,
+				ACFEB9E6D4DC8BDCB77A68C23C4ED574 /* Alertify */,
 			);
-			name = Products;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		314704AA154781F49931AF83C5E387FB /* Support Files */ = {
+		5092BC4851F3F3136E8D84C58E26057C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				958B4B4DCB4EAD97E1508F92FF281089 /* Alertify.modulemap */,
-				3DD5FB8305B6568C1D827B03E4E2ECA2 /* Alertify.xcconfig */,
-				85931C25F556F846ABBBC02F2BB750C9 /* Alertify-dummy.m */,
-				A1C92DAD9C31534D4DA9AB13D5AEDC8E /* Alertify-prefix.pch */,
-				7B8159A66A7A8453D69F31FADD592E86 /* Alertify-umbrella.h */,
-				392F70764223365B59DA1687CA609FE6 /* Info.plist */,
+				D7CBCDE5012F7310F965D1A59BBA2C41 /* Alertify.modulemap */,
+				0CACCB279DF19550660525F506F7912E /* Alertify.xcconfig */,
+				1D1225BD82312FF971F77230FD0C54EA /* Alertify-dummy.m */,
+				D8BA47603AFB448904D013F74B2B7AEC /* Alertify-Info.plist */,
+				49D2F12C9AFA5B7C59F86977CE658D60 /* Alertify-prefix.pch */,
+				941B737C686F66A0D0F9F2159EB41BE3 /* Alertify-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Alertify";
 			sourceTree = "<group>";
 		};
-		4179905BA70372DAD751ABE7527C0AFE /* Alertify */ = {
+		92CECD12EE9C0E3671CE19E915E38974 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E7D4420FBDCB25DC5DC3AA23F6338693 /* ActionBuilder.swift */,
-				CC858569080DDF7A6BB10E1C5B938F3A /* ActionSheet.swift */,
-				D12362C7F27200BFA68A827FC5169C1C /* ActionType.swift */,
-				959EE7028AEA7A480F002267849CA603 /* Alert.swift */,
-				E48847FD09F35F184DB31933E12D2ACC /* Alertify.swift */,
-				6CDC65DAF40915C72D9E8C53A2975E49 /* AlertProtocol.swift */,
-				59F664710E2FEE1D8B73D09F7D666AED /* Debug.swift */,
-				8C9B0C78AB2337F25AE753343039A8B6 /* InnerAlertController.swift */,
-				D68A958C3B3F6937B1C7D40356BEE113 /* Pod */,
-				314704AA154781F49931AF83C5E387FB /* Support Files */,
+				D6203BB076013EE06BE31155938CE954 /* Alertify.podspec */,
+				40E5199304CF20B39078259DD991E68B /* LICENSE */,
+				FAC07A23D6187709E117C113A9DCDC0C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A64A08028110C11867BCC2D5A50B4DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831D5071E903028A925C0107E161A93D /* Alertify.framework */,
+				BE858AC84D04ACE146F5E271C83EFC57 /* Pods_Alertify_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFEB9E6D4DC8BDCB77A68C23C4ED574 /* Alertify */ = {
+			isa = PBXGroup;
+			children = (
+				7046DEC5A5C42C25BA25F072EE125F4A /* ActionBuilder.swift */,
+				C788781CA6B9EEAEB2F87CC521C5794C /* ActionSheet.swift */,
+				3C1C91E74C796A286C10C4473A56BB0E /* ActionType.swift */,
+				D1A6D876077F7ED39AFA4820426C5E3F /* Alert.swift */,
+				6FE05A22F0F415CCF688EF2EEA58E26C /* Alertify.swift */,
+				DC0593C3696CEC835A14DF802F013C28 /* AlertProtocol.swift */,
+				14EF29300F7BD3B89015080DC90F6C8E /* Debug.swift */,
+				3B4E7D05B88DD7C27EDB7051E389F755 /* InnerAlertController.swift */,
+				92CECD12EE9C0E3671CE19E915E38974 /* Pod */,
+				5092BC4851F3F3136E8D84C58E26057C /* Support Files */,
 			);
 			name = Alertify;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		B0ABDBA3D654E7AC738949ED40E6F3E9 /* Pods-Alertify_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CC7B11764D06BE4892F9DE5B03E39D9F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				01F7CF54C215F5D53B5E2602DFCF1C74 /* Products */,
-				E5A11DC2E919FA956BE3DAB06ED62F72 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A7976B67DF5C02CFE407B4BE152E9122 /* Pods-Alertify_Example */ = {
-			isa = PBXGroup;
-			children = (
-				9DBB719DF9D3D105AE6319BB58FF7735 /* Info.plist */,
-				E3A8682ADDB7A3A367219F14230DDDA2 /* Pods-Alertify_Example.modulemap */,
-				C978C7C6B911A5721CFF222813FDC511 /* Pods-Alertify_Example-acknowledgements.markdown */,
-				D060D1F345AB7D524DA1D854F833ECB4 /* Pods-Alertify_Example-acknowledgements.plist */,
-				66A59EF89AFB3BACDB3D85308C9238EC /* Pods-Alertify_Example-dummy.m */,
-				E61FB7799FE045ECE2A4F28DDB6EA54D /* Pods-Alertify_Example-frameworks.sh */,
-				537DDADC18AA6D9E04ABD4033B350728 /* Pods-Alertify_Example-resources.sh */,
-				05EE1B50C80A785DBEB1B366EBB68248 /* Pods-Alertify_Example-umbrella.h */,
-				21A80B29C84411EEDE4B419FCFB3F294 /* Pods-Alertify_Example.debug.xcconfig */,
-				B2868653BD1206BC6988CF0565345EFC /* Pods-Alertify_Example.release.xcconfig */,
+				11A1A439DDDB22B2EE0D30E42794940C /* Pods-Alertify_Example.modulemap */,
+				184DE236CC9B11B5D4F49D8132770809 /* Pods-Alertify_Example-acknowledgements.markdown */,
+				450A659D855D0C521988FF5C19A07E79 /* Pods-Alertify_Example-acknowledgements.plist */,
+				293A8D49C96D318821EFCA143F52AB14 /* Pods-Alertify_Example-dummy.m */,
+				E4EB102CB3834422C87BD700B101F305 /* Pods-Alertify_Example-frameworks.sh */,
+				76CE83ECD80151F5D185232859422622 /* Pods-Alertify_Example-Info.plist */,
+				986EA837B7733F962EEAEF8DE790788D /* Pods-Alertify_Example-umbrella.h */,
+				7E8151F12CDC8D1A8B1103A55B8F60D7 /* Pods-Alertify_Example.debug.xcconfig */,
+				9DC6B69B7D0D66B650E06AE1BC2A3AE3 /* Pods-Alertify_Example.release.xcconfig */,
 			);
 			name = "Pods-Alertify_Example";
 			path = "Target Support Files/Pods-Alertify_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				39119C737A88F14FE338A13167FC61E4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A64A08028110C11867BCC2D5A50B4DA9 /* Products */,
+				ED79A9C4A41000339251B2533AC1D398 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CC7B11764D06BE4892F9DE5B03E39D9F /* Development Pods */ = {
+		ED79A9C4A41000339251B2533AC1D398 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4179905BA70372DAD751ABE7527C0AFE /* Alertify */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D68A958C3B3F6937B1C7D40356BEE113 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				65BC6DEF498A53B0DB840E9ECF247A56 /* Alertify.podspec */,
-				E55A2F17F792638693A3B3A51ECC3AD7 /* LICENSE */,
-				58F61D6D0287B1B26C2AF62F1F1FB7FE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E5A11DC2E919FA956BE3DAB06ED62F72 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A7976B67DF5C02CFE407B4BE152E9122 /* Pods-Alertify_Example */,
+				B0ABDBA3D654E7AC738949ED40E6F3E9 /* Pods-Alertify_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -202,33 +200,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D58D4C471E6E59B29EB73CB48B9E5DA4 /* Headers */ = {
+		B73F8BA70A94BFAF6911C1A5BAB9EA6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD447E393B7EF79AEDB1DF0692F9525A /* Pods-Alertify_Example-umbrella.h in Headers */,
+				F1612C30B5187A91A062E47CFC0DC096 /* Alertify-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECE36114F87C9D9F4F0BEF3A21DBF6CB /* Headers */ = {
+		DB45F293C933F757DC32220F73565483 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ACCFD6A7F490AC6C311EF236125BA9F /* Alertify-umbrella.h in Headers */,
+				E5620F1B625899973EB120E8CC8C0796 /* Pods-Alertify_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C116614304B42B1F98BAE78A496B2483 /* Alertify */ = {
+		2AE9C5B8DCFA5995B05F7F5D5E583450 /* Alertify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD9BBA1155268367DBDDD2AA48FEF71 /* Build configuration list for PBXNativeTarget "Alertify" */;
+			buildConfigurationList = 644522F6582FE980BEA21E831E295FE0 /* Build configuration list for PBXNativeTarget "Alertify" */;
 			buildPhases = (
-				ECE36114F87C9D9F4F0BEF3A21DBF6CB /* Headers */,
-				BBA13EC232645A2AEE1457383B3272EE /* Sources */,
-				8F4FDE016356F3182D046FE1FE745CE8 /* Frameworks */,
-				630CC7AB0EE1FB56239622586658999A /* Resources */,
+				B73F8BA70A94BFAF6911C1A5BAB9EA6A /* Headers */,
+				D0D4B9C552BA9F9CF76F5BE489DF371A /* Sources */,
+				F9AAFE2B212A14E0CC2C878E0EC88960 /* Frameworks */,
+				7D21BBE20F789BCD76788E60422681BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -236,64 +234,65 @@
 			);
 			name = Alertify;
 			productName = Alertify;
-			productReference = D191EB8EC1EC88CE146A4E58AB98D2AE /* Alertify.framework */;
+			productReference = 831D5071E903028A925C0107E161A93D /* Alertify.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C78796C21B5854853DF2591A1D9B529F /* Pods-Alertify_Example */ = {
+		FA9558752653DEDDDEBDEB6720952481 /* Pods-Alertify_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5E5A6F457C47576A1F041AF38684443 /* Build configuration list for PBXNativeTarget "Pods-Alertify_Example" */;
+			buildConfigurationList = 65C841D52514E7EC9868D152558EF7A6 /* Build configuration list for PBXNativeTarget "Pods-Alertify_Example" */;
 			buildPhases = (
-				D58D4C471E6E59B29EB73CB48B9E5DA4 /* Headers */,
-				F0652895A4423F7E7408F17644F5EE3F /* Sources */,
-				A6EC5FC051BBE9FBF90261EB42285488 /* Frameworks */,
-				C85BC6ECF740484FF669EEEDA19D2EFB /* Resources */,
+				DB45F293C933F757DC32220F73565483 /* Headers */,
+				C4506D9A98A40EED22D6517BD92CC8C1 /* Sources */,
+				DA6C8014F7CF43CD13B80639AF739F62 /* Frameworks */,
+				CADD34A7C8210C43D8B5E076E35EA0C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC3F7AD17C444D448F9BD60D433FAFAD /* PBXTargetDependency */,
+				1330ABEB16EB90A97AF50AE7E03337C7 /* PBXTargetDependency */,
 			);
 			name = "Pods-Alertify_Example";
 			productName = "Pods-Alertify_Example";
-			productReference = 026D5AA8A4849D08930A2567F6B93E10 /* Pods_Alertify_Example.framework */;
+			productReference = BE858AC84D04ACE146F5E271C83EFC57 /* Pods_Alertify_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 01F7CF54C215F5D53B5E2602DFCF1C74 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A64A08028110C11867BCC2D5A50B4DA9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C116614304B42B1F98BAE78A496B2483 /* Alertify */,
-				C78796C21B5854853DF2591A1D9B529F /* Pods-Alertify_Example */,
+				2AE9C5B8DCFA5995B05F7F5D5E583450 /* Alertify */,
+				FA9558752653DEDDDEBDEB6720952481 /* Pods-Alertify_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		630CC7AB0EE1FB56239622586658999A /* Resources */ = {
+		7D21BBE20F789BCD76788E60422681BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C85BC6ECF740484FF669EEEDA19D2EFB /* Resources */ = {
+		CADD34A7C8210C43D8B5E076E35EA0C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,45 +302,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BBA13EC232645A2AEE1457383B3272EE /* Sources */ = {
+		C4506D9A98A40EED22D6517BD92CC8C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				330B104682F9B5BD24FBBB15921D648C /* ActionBuilder.swift in Sources */,
-				2E6EA15C3410AC867A0318F80AF24780 /* ActionSheet.swift in Sources */,
-				B03CB29EEB43F992CC55871222F1DD27 /* ActionType.swift in Sources */,
-				D0B6642761ED8F7B72C08BEAF6F3581B /* Alert.swift in Sources */,
-				383C82D18E6DE0BAFE7D8F03CA09BF2D /* Alertify-dummy.m in Sources */,
-				CA88F2FC29C0523E5629830A8A02FF61 /* Alertify.swift in Sources */,
-				717FF7F383B8204B454F496BA1163107 /* AlertProtocol.swift in Sources */,
-				0FAA2BE905F2B641A192986A665AE645 /* Debug.swift in Sources */,
-				B01B8AB749F25EE706D37AB2B3EBB77E /* InnerAlertController.swift in Sources */,
+				D66CA5E412DE00E6793D359CE6B58AFD /* Pods-Alertify_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0652895A4423F7E7408F17644F5EE3F /* Sources */ = {
+		D0D4B9C552BA9F9CF76F5BE489DF371A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A22F13781B6124FB0D3CD1FF71DF4A2 /* Pods-Alertify_Example-dummy.m in Sources */,
+				78BA673AF1BBB02CA11A27BE4D4894D4 /* ActionBuilder.swift in Sources */,
+				9A52D8312A8DAC81E8A23CA5D2ACF2F5 /* ActionSheet.swift in Sources */,
+				C4C88F874F68D7D0425504907DADBBD2 /* ActionType.swift in Sources */,
+				F1CF0F6B2BC64B56D929792FF6D65B73 /* Alert.swift in Sources */,
+				DC3E60CDF04A5F01A513486B5EDBE383 /* Alertify-dummy.m in Sources */,
+				97FA39A0AAE5774EAE8E5F5CE10CA9C5 /* Alertify.swift in Sources */,
+				03237A0FB415D4237BDE326D32768DAF /* AlertProtocol.swift in Sources */,
+				301D52248D52DD549D68473C3BE9DB1E /* Debug.swift in Sources */,
+				5DBC731A5B0B2261ECC4FD04420A1624 /* InnerAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC3F7AD17C444D448F9BD60D433FAFAD /* PBXTargetDependency */ = {
+		1330ABEB16EB90A97AF50AE7E03337C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alertify;
-			target = C116614304B42B1F98BAE78A496B2483 /* Alertify */;
-			targetProxy = 06B87B54EB21EFCDF343B1368ED71203 /* PBXContainerItemProxy */;
+			target = 2AE9C5B8DCFA5995B05F7F5D5E583450 /* Alertify */;
+			targetProxy = 8D66A09F8D926E992A7F2F3765227471 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4B797E55360232D73CEBCE1911DE370F /* Debug */ = {
+		07CB2084EE5EDF2501298DFFED985330 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21A80B29C84411EEDE4B419FCFB3F294 /* Pods-Alertify_Example.debug.xcconfig */;
+			baseConfigurationReference = 0CACCB279DF19550660525F506F7912E /* Alertify.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alertify/Alertify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alertify/Alertify-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alertify/Alertify.modulemap";
+				PRODUCT_MODULE_NAME = Alertify;
+				PRODUCT_NAME = Alertify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16E739DC193B08EDEE40572A062AAFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC6B69B7D0D66B650E06AE1BC2A3AE3 /* Pods-Alertify_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -354,7 +386,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Alertify_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertify_Example/Pods-Alertify_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -369,44 +401,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		81347355FFD636010238DD405833E35F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DD5FB8305B6568C1D827B03E4E2ECA2 /* Alertify.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alertify/Alertify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alertify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alertify/Alertify.modulemap";
-				PRODUCT_MODULE_NAME = Alertify;
-				PRODUCT_NAME = Alertify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,8 +439,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -467,14 +466,46 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C7B52CBDE1E979AB4BBD08A44CBBE436 /* Release */ = {
+		554980AF93BE76D9AEA67C7FA250DDB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2868653BD1206BC6988CF0565345EFC /* Pods-Alertify_Example.release.xcconfig */;
+			baseConfigurationReference = 0CACCB279DF19550660525F506F7912E /* Alertify.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alertify/Alertify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alertify/Alertify-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alertify/Alertify.modulemap";
+				PRODUCT_MODULE_NAME = Alertify;
+				PRODUCT_NAME = Alertify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		878F971313A389606706D501030119D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8151F12CDC8D1A8B1103A55B8F60D7 /* Pods-Alertify_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -487,7 +518,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Alertify_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Alertify_Example/Pods-Alertify_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -502,13 +533,12 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -540,8 +570,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -565,75 +593,42 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D63322AD92FF9904E4CA3A351CF0FA54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DD5FB8305B6568C1D827B03E4E2ECA2 /* Alertify.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alertify/Alertify-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alertify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alertify/Alertify.modulemap";
-				PRODUCT_MODULE_NAME = Alertify;
-				PRODUCT_NAME = Alertify;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */,
-				D5F759C82752B2EB010DB3CD3D69707C /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD9BBA1155268367DBDDD2AA48FEF71 /* Build configuration list for PBXNativeTarget "Alertify" */ = {
+		644522F6582FE980BEA21E831E295FE0 /* Build configuration list for PBXNativeTarget "Alertify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81347355FFD636010238DD405833E35F /* Debug */,
-				D63322AD92FF9904E4CA3A351CF0FA54 /* Release */,
+				554980AF93BE76D9AEA67C7FA250DDB5 /* Debug */,
+				07CB2084EE5EDF2501298DFFED985330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5E5A6F457C47576A1F041AF38684443 /* Build configuration list for PBXNativeTarget "Pods-Alertify_Example" */ = {
+		65C841D52514E7EC9868D152558EF7A6 /* Build configuration list for PBXNativeTarget "Pods-Alertify_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B797E55360232D73CEBCE1911DE370F /* Debug */,
-				C7B52CBDE1E979AB4BBD08A44CBBE436 /* Release */,
+				878F971313A389606706D501030119D8 /* Debug */,
+				16E739DC193B08EDEE40572A062AAFE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
