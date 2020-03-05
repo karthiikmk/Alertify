@@ -69,8 +69,8 @@ extension Alertify {
 		
 		public func addDefaultIpadSupportable(_ ipadSuppportView: UIView) -> Self {
 			guard UIDevice.current.userInterfaceIdiom == .pad, let popoverController = innerController.popoverPresentationController else { return self }
-			popoverController.sourceView = view
-			popoverController.sourceRect = CGRect(x: view.bounds.midX, y: view.bounds.midY, width: 0, height: 0)
+			popoverController.sourceView = ipadSuppportView
+			popoverController.sourceRect = CGRect(x: ipadSuppportView.bounds.midX, y: ipadSuppportView.bounds.midY, width: 0, height: 0)
 			popoverController.permittedArrowDirections = []
 			return self
 		}
