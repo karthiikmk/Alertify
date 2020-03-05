@@ -66,6 +66,14 @@ extension Alertify {
             innerController.popoverPresentationController?.sourceRect = anchorView.frame
             return self
         }
+		
+		public func addDefaultIpadSupportable(_ ipadSuppportView: UIView) -> Self {
+			guard UIDevice.current.userInterfaceIdiom == .pad, let popoverController = innerController.popoverPresentationController else { return self }
+			popoverController.sourceView = view
+			popoverController.sourceRect = CGRect(x: view.bounds.midX, y: view.bounds.midY, width: 0, height: 0)
+			popoverController.permittedArrowDirections = []
+			return self
+		}
         
         public func popover(barButtonItem: UIBarButtonItem?) -> Self {
             innerController.popoverPresentationController?.barButtonItem = barButtonItem

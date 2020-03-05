@@ -30,4 +30,11 @@ public final class Alertify {
     public static func actionSheet(title: String? = nil, message: String? = nil, anchorView: UIView) -> ActionSheet {
         return actionSheet(title: title, message: message).popover(anchorView: anchorView)
     }
+	
+	/// Make action sheet
+	/// - viewForIpadSupport: UIViewController's view
+	/// - Returns: Instance of **ActionSheet**
+	public static func actionSheet(title: String? = nil, message: String? = nil, viewForIpadSupport: UIView) -> ActionSheet {
+		return actionSheet(title: title, message: message).addDefaultIpadSupportable(viewForIpadSupport)
+	}
 }
